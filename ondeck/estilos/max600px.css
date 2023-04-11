@@ -80,6 +80,7 @@ main > span {
 .ico {
     display: inline-flex;
     gap: 20px;
+    align-items: center;
 }
 
 .comp {
