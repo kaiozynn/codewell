@@ -39,7 +39,7 @@ main {
 }
 
 main article, div{
-    padding: 17px;
+    padding: 17px 0 17px 15px;
 }
 
 #titulo {
