@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:root {
+    --cor-bg: #f3ede5;
+    --cor-destaque: #f7b300;
+    --cor-botao: #133416;
+    --cor-fonte: #8e8c8a;
+    --cor-white: #fff;
+}
+
+body {
+    background-color: var(--cor-bg);
+    color: var(--cor-fonte);
+}
