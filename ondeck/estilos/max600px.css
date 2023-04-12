@@ -43,7 +43,8 @@ main article, div{
 }
 
 #titulo {
-    width: 350px;
+    min-width: 200px;
+    max-width: 350px;
     font-size: 2.4em;
     color: black;
     font-weight: bold;
@@ -55,7 +56,8 @@ main article, div{
 }
 
 #legenda {
-    width: 350px;
+    min-width: 200px;
+    max-width: 350px;
     font-size: 1em;
     line-height: 1.2em;
 }
