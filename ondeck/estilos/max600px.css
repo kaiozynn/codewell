@@ -62,7 +62,7 @@ main article, div{
     line-height: 1.2em;
 }
 
-input {
+#input {
     width: 180px;
     padding: 20px;
     font-size: 1.4em;
@@ -73,6 +73,11 @@ input {
     font-weight: 600;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.615);
     margin-top: -10px;
+}
+
+#input > a {
+    color: white;
+    text-decoration: none;
 }
 
 /*main > span {
@@ -89,4 +94,16 @@ input {
     display: block;
     text-align: center;
     margin-top: 70px;
+}
+
+#logos {
+    margin: 0;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+}
+
+#logos > img {
+    width: 44vw;
+    padding: 10px;
 }
