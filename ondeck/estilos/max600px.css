@@ -29,18 +29,78 @@ main {
     width: 100vw;
 }
 
-#menu {
+#btnMenu {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-#menu img {
+#btnMenu img {
     width: 40px;
+}
+
+.menu {
+    position: absolute;
+    padding: 40px;
+    top: 15px;
+    background-color: white;
+    width: 76vw;
+    height: 330px;
+    border-radius: 20px;
+    display: none;
+    animation-duration: 2s;
+    z-index: 99;
+}
+
+#cabecaMenu {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;    
+    justify-content: space-between;
+}
+
+#cabecaMenu > span > img {
+    width: 35px;
 }
 
 main article, div{
     padding: 17px 0 17px 15px;
+}
+
+.closeMenu {
+    background-color: transparent;
+    border: none;
+}
+
+.navegacao {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao button {
+    display: flex;
+    width: 285px;
+    height: 200px;
+    background-color: transparent;
+    border: none;
+}
+
+.destaqueMenu {
+    color: black;
+    font-weight: bolder;
+}
+
+.txt {
+    color: var(--cor-fonte);
+    text-align: justify;
+    padding: 2px 10px;
+}
+
+.navegacao img {
+    display: inline-block;
+    left: 0;
+    top: 0;
 }
 
 #titulo {
