@@ -7,4 +7,9 @@ nav {
 
 #btnMenu {
     background-color: transparent;
+    display: none;
+}
+
+#cabecaMenu, .navegacao{
+    display: none;
 }
