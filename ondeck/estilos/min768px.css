@@ -53,6 +53,17 @@ nav {
     color: var(--cor-fonte);
 }
 
+.menu::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 120px;
+    top: -8px;
+    transform: rotate(45deg);
+    background-color: var(--cor-white);
+}
+
 .login {
     position: absolute;
     display: flex;
