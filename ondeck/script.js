@@ -1,14 +1,26 @@
-var botao = document.querySelector("#btnMenu")
+var botao = document.querySelector(".btnMenu")
 var closeMenu = document.querySelector('.closeMenu')
 var menu = document.querySelector('.menu')
+var atvMenu = document.querySelector('.ativarMenu')
 
-botao.addEventListener("click", () => {
+//menu mobile
+
+botao.addEventListener("click", () => { //ativa o menu ao clicar no icone de menu hamburger
     menu.style.display = 'block'
     botao.style.display = "none"
 })
 
-closeMenu.addEventListener('click', () => {
+closeMenu.addEventListener('click', () => { //some com o menu ao clicar no "X"
     menu.style.display = 'none'
     botao.style.display = "block"
 })
 
+//chama o menu no tablet
+
+atvMenu.addEventListener('click', () => {
+    if (menu.style.display == 'none') {
+        menu.style.display = 'block'
+    } else {
+        menu.style.display = 'none'
+    }
+})

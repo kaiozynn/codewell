@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/max600px.css" media="screen and (max-width: 600px)">
-    <link rel="stylesheet" href="estilos/min768px.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="estilos/max600px.css">
+    <link rel="stylesheet" href="estilos/min768px.css" media="screen and (min-width: 700px)">
     <title>Site Ondeck</title>
 </head>
 <body>
@@ -16,17 +15,24 @@
                 <img src="Assets/Logo.svg" id="logo">
             </span>
             <span>
-                <button id="btnMenu">
+                <button class="btnMenu">
                     <span><img src="Assets/Menu.svg"></span>
                 </button>
             </span>
-            <div class="menu">
-                <div class="menuTablet">
-                    <button>Products</button>
-                </div>
-                <div id="cabecaMenu">
+            <div class="menuTablet">
+                <button class="ativarMenu">Products</button>
+                <button>Challengens</button>
+                <button>Resources</button>
+                <button>Other links</button>
+                <div class="login">
+                    <button><a href="#" class="logar">Sign in</a></button>
+                    <Button><a href="#" class="input inNav">Try for free</a></Button>
+                </div> 
+            </div>
+            <div class="menu" style="display: none;">
+                <div class="cabecaMenu">
                     <span>Products</span>
-                    <button class="closeMenu">
+                    <button class="closeMenu btnMenu">
                         <span><img src="Assets/Close.svg"></span>
                     </button>
                 </div>
@@ -64,7 +70,7 @@
             </p>
         </article>
         <div>
-            <button id="input"><a href="">Try for free</a></button>
+            <button class="input"><a href="">Try for free</a></button>
         </div>
         <div class="ico">
             <span>5.0 Rating based on reviews from:</span>

@@ -1,15 +1,126 @@
 @charset "UTF-8";
 
+:root {
+    --cor-bg: #f3ede5;
+    --cor-destaque: #f7b300;
+    --cor-botao: #133416;
+    --cor-fonte: #8e8c8a;
+    --cor-white: #fff;
+}
+
+body {
+    background-color: var(--cor-bg);
+    font-family: sans-serif;
+    color: var(--cor-fonte);
+}
+
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-#btnMenu {
+.btnMenu {
     background-color: transparent;
     display: none;
 }
 
-#cabecaMenu, .navegacao{
+.menu {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    width: 60vw;
+    height: 300px;
+    background-color: var(--cor-white);
+    border-radius: 20px;
+    z-index: 99;
+    padding: 0;
+}
+
+.menuTablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menuTablet button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: var(--cor-fonte);
+}
+
+.login {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    right: 20px;
+}
+
+.menuTablet a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logar {
+    font-weight: normal;
+    color: var(--cor-fonte);
+}
+
+.inNav {
+    font-size: 16px;
+}
+
+.btnMenu {
     display: none;
+}
+
+.cabecaMenu {
+    display: none;
+}
+
+.navegacao {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.navegacao > button {
+    display: flex;
+    text-align: justify;
+    padding: 20px;
+    color: var(--cor-fonte);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 60vw;
+}
+
+.navegacao > button:nth-child(1):hover {
+    background-color: rgb(231, 231, 231);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.navegacao > button:nth-child(2):hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.navegacao > button:nth-child(3):hover {
+    background-color: rgb(231, 231, 231);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.destaqueMenu {
+    color: black;
+    font-weight: bold;
+}
+
+.txt {
+    padding-left: 10px;
 }
