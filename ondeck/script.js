@@ -7,12 +7,10 @@ var atvMenu = document.querySelector('.ativarMenu')
 
 botao.addEventListener("click", () => { //ativa o menu ao clicar no icone de menu hamburger
     menu.style.display = 'block'
-    botao.style.display = "none"
 })
 
 closeMenu.addEventListener('click', () => { //some com o menu ao clicar no "X"
     menu.style.display = 'none'
-    botao.style.display = "block"
 })
 
 //chama o menu no tablet

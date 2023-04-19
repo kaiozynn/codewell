@@ -32,14 +32,15 @@ main {
 }
 
 .btnMenu {
+    display: block;
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding-right: 10px;
-    display: block;
 }
 
 .btnMenu img {
+    display: block;
     width: 40px;
 }
 
