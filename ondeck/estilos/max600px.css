@@ -39,6 +39,10 @@ main {
     padding-right: 10px;
 }
 
+.btnMenu:focus {
+    outline: nome;
+}
+
 .btnMenu img {
     display: block;
     width: 40px;
