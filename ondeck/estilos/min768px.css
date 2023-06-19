@@ -12,6 +12,7 @@ body {
     background-color: var(--cor-bg);
     font-family: sans-serif;
     color: var(--cor-fonte);
+    overflow: hidden;
 }
 
 nav {
